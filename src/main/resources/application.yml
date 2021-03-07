@@ -1,0 +1,11 @@
+server:
+  port: 80
+
+com:
+  zwb:
+    thread:
+      threadNamePrefix: "sync-executor-zwb-"
+      corePoolSize: 10
+      maxPoolSize: 100
+      queueCapacity: 1000
+      keepAliveSeconds: 60
